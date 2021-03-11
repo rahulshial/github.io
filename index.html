@@ -104,7 +104,7 @@
         </div>
         <!-- Masthead Subheading-->
         <p class="masthead-subheading font-weight-light mb-0">
-          Passionate about - Software Development - Databases & web servers
+          Passionate about - Project Management - Web Development - Databases
         </p>
       </div>
     </header>
@@ -223,6 +223,29 @@
             </div>
           </div>
           <!-- Portfolio Item 2-->
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal6"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/Kangaroo.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- Portfolio Item 3-->
           <div class="col-md-6 col-lg-4 mb-5">
             <div
               class="portfolio-item mx-auto"
@@ -245,7 +268,7 @@
               />
             </div>
           </div>
-          <!-- Portfolio Item 3-->
+          <!-- Portfolio Item 4-->
           <div class="col-md-6 col-lg-4 mb-5">
             <div
               class="portfolio-item mx-auto"
@@ -268,7 +291,7 @@
               />
             </div>
           </div>
-          <!-- Portfolio Item 4-->
+          <!-- Portfolio Item 5-->
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
             <div
               class="portfolio-item mx-auto"
@@ -291,7 +314,7 @@
               />
             </div>
           </div>
-          <!-- Portfolio Item 5-->
+          <!-- Portfolio Item 6-->
           <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
             <div
               class="portfolio-item mx-auto"
@@ -310,29 +333,6 @@
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/BuySell.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <!-- Portfolio Item 6-->
-          <div class="col-md-6 col-lg-4">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal6"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/Tweeter.jpg"
                 alt=""
               />
             </div>
@@ -452,6 +452,67 @@
     <!-- Portfolio Modal 2-->
     <div
       class="portfolio-modal modal fade"
+      id="portfolioModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal6Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                    id="portfolioModal6Label"
+                  >
+                    Kangaroo
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image-->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="assets/img/portfolio/Kangaroo.png"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text-->
+                  <p class="mb-5">
+                    Kangaroo is a multipage app utilizing Twilio for audio chats, Firebase for user authentication and typed chat. Users once logged in can create chat rooms, 
+                    or join existing chat rooms as in Jump into conversation.
+                    <strong>Front-end</strong>: Javascript, React, Material UI   <strong>Back-end</strong>: Twilio, Firebase
+                  </p>
+                  <button class="btn btn-primary" onclick="location.href = 'https://github.com/rahulshial/mitelCorpClubhouse';">
+                    <i class="fab fa-fw fa-github"></i>
+                    GitHub
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <!-- Portfolio Modal 3-->
+    <div
+      class="portfolio-modal modal fade"
       id="portfolioModal2"
       tabindex="-1"
       role="dialog"
@@ -512,7 +573,7 @@
         </div>
       </div>
     </div>
-    <!-- Portfolio Modal 3-->
+    <!-- Portfolio Modal 4-->
     <div
       class="portfolio-modal modal fade"
       id="portfolioModal3"
@@ -574,7 +635,7 @@
         </div>
       </div>
     </div>
-    <!-- Portfolio Modal 4-->
+    <!-- Portfolio Modal 5-->
     <div
       class="portfolio-modal modal fade"
       id="portfolioModal4"
@@ -638,7 +699,7 @@
         </div>
       </div>
     </div>
-    <!-- Portfolio Modal 5-->
+    <!-- Portfolio Modal 6-->
     <div
       class="portfolio-modal modal fade"
       id="portfolioModal5"
@@ -690,68 +751,6 @@
                     <strong>Front-end</strong>: HTML, SASS, Bootstrap, JS, jQuery, EJS, AJAX <strong>Back-end</strong>: Node, Express, PostgreSQL, TWILIO
                   </p>
                   <button class="btn btn-primary" onclick="location.href = 'https://github.com/rahulshial/buy_and_sell';">
-                    <i class="fab fa-fw fa-github"></i>
-                    GitHub
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 6-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal6"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal6Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal6Label"
-                  >
-                    Tweeter
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/Tweeter.jpg"
-                    alt=""
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Tweeter is a Single Page App (SPA). Tweeter allows the logged in user to post tweets which are displayed using
-                    random names, and the tweets will be rendered with the latest tweet first. A React version of Tweeter has also
-                    been created to enhance the rendering of tweets
-                    <strong>Front-end</strong>: HTML, CSS, JS, jQuery and AJAX   <strong>Back-end</strong>: Express, JSON
-                  </p>
-                  <button class="btn btn-primary" onclick="location.href = 'https://github.com/rahulshial/tweeterReact';">
                     <i class="fab fa-fw fa-github"></i>
                     GitHub
                   </button>
